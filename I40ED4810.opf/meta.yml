@@ -9,13 +9,15 @@ ocr_import_info:
   batch_id: batch001
   software_id: vision
   expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
 default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2022-08-18T07:02:02.589886+00:00'
-last_modified: 2022-08-18 12:32:20.555741
-parser: null
+imported: '2022-09-03T12:19:37.681740+00:00'
+last_modified: 2022-09-03 20:19:48.410295
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W3CN1482
   status: http://purl.bdrc.io/admindata/StatusReleased
@@ -25,7 +27,7 @@ source_metadata:
   title: སྤྱོད་འཇུག་གི་འགྲེལ་པ་ངེས་ལེགས་མཛོད།
   author: སྨུག་སངས་ཀརྨ་ཚེ་དཔལ།
 statistics:
-  ocr_word_mean_confidence_index: 0.5521146171231213
+  ocr_word_mean_confidence_index: 0.5495030688860113
   ocr_word_median_confidence_index: 0.5400000214576721
 quality: null
 bases:
@@ -39,7 +41,7 @@ bases:
     base_file: I3CN1538.txt
     statistics:
       ocr_word_median_confidence_index: 0.5400000214576721
-      ocr_word_mean_confidence_index: 0.5521146171231213
+      ocr_word_mean_confidence_index: 0.5495030688860113
     legacy_id: v001
 copyright:
   status: Public domain
